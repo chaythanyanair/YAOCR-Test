@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context="com.example.test.MainActivity" >
+
+    <AbsoluteLayout
+android:layout_width="match_parent"
+android:layout_height="468dp"
+android:orientation="vertical"
+android:padding="60dp"
+android:visibility="visible" >
+<ImageView
+android:id="@+id/viewImage1"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_x="5dp"
+android:layout_y="170dp"
+android:src="@drawable/upload"
+android:visibility="visible" />
+<ImageView
+android:id="@+id/viewImage"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_x="0dp"
+android:layout_y="-50dp"
+android:paddingBottom="10dp"
+android:src="@drawable/camera"
+android:visibility="visible" />
+</AbsoluteLayout>
+
+</LinearLayout>
